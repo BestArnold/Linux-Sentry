@@ -110,3 +110,4 @@ sudo cat /etc/shadow
 2.  Sentry 终端提示：`Allow process ...? [y/N]`。
 3.  输入 `n` -> 进程被终止；输入 `y` -> 进程继续执行。
 
+注：该文件由 `claude code` + `GLM-4.6` 生成
