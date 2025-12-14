@@ -1,5 +1,7 @@
 # Linux Sentry: eBPF-based File Access Monitor & Blocker
 
+> 东南大学计软智学院Linux 内核技术课程小组实验
+
 这是一个基于 eBPF (CO-RE) 的 Linux 文件访问监控与防御实验项目。
 它运行在 Linux 6.8+ 内核上，能够实时拦截对敏感文件（如 `/etc/shadow`）的访问，并在用户态提供交互式的“允许/拒绝”控制。
 
