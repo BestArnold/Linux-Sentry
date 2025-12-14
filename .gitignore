@@ -1,0 +1,41 @@
+# Build directories
+build/
+*.o
+*.bpf.o
+*.so
+
+# Object files
+*.obj
+*.elf
+
+# Executables
+linux_sentry
+
+# Compiled libraries
+*.a
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Core dumps
+core
+core.*
+
+# clangd
+compile_commands.json
+.cache/
